@@ -3,13 +3,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: 70vh;
 }
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   background-color: rgb(255, 255, 255);
-  height: 12vh;
+  height: 10vh;
   font-family: serif;
 }
 
@@ -22,7 +23,7 @@ li {
   color: black;
 }
 .header-logo {
-  height: 50px;
+  height: 30px;
 }
 .logo-home {
   display: flex;
@@ -34,4 +35,8 @@ li {
   justify-content: center;
   height: 95vh;
   width: 100vw;
+}
+.landing-2 {
+  height: 40vh;
+  background-color: aqua;
 }
