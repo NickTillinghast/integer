@@ -1,16 +1,33 @@
 body {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  -webkit-animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.main-body-image {
   background-image: url(/media/landing.jpg);
+  width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 70vh;
 }
 .header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-direction: row;
-  justify-content: space-evenly;
   background-color: rgb(255, 255, 255);
-  height: 10vh;
+  height: 13vh;
+
   font-family: serif;
 }
 
@@ -23,20 +40,82 @@ li {
   color: black;
 }
 .header-logo {
-  height: 30px;
+  height: 4vh;
 }
 .logo-home {
-  display: flex;
+  /* padding: 20px; */
+  margin-left: 70%;
 }
 .landing {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 95vh;
-  width: 100vw;
+  height: 75vh;
+  /* width: 20vw; */
+  font-size: 25px;
 }
-.landing-2 {
-  height: 40vh;
-  background-color: aqua;
+
+#landing-2 {
+  margin-top: 70px;
+  height: 5vh;
+  background-color: rgb(255, 255, 255);
+  border-bottom: solid;
+  border: black;
+}
+.links {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  /* width: 40vw; */
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.link-box {
+  width: 35vw;
+  height: 20px;
+}
+.main-logo {
+  height: 45px;
+}
+.landing-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+}
+.contact {
+  color: black;
+  text-decoration: none;
+}
+.header-box-2 {
+  margin-left: 50%;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 20px;
+}
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.line {
+  width: 100%;
+  background-color: black;
+  height: 2px;
+  margin-bottom: 30px;
+}
+.work-image {
+  height: 225px;
+  width: 225px;
+  border-radius: 225px;
+}
+
+.work-images {
+  display: flex;
+}
+.work-links {
 }
