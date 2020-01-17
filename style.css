@@ -84,6 +84,11 @@ li {
   align-items: center;
   width: 50vw;
 }
+.work {
+  color: black;
+  text-decoration: none;
+}
+
 .contact {
   color: black;
   text-decoration: none;
@@ -96,7 +101,7 @@ h2 {
   font-weight: lighter;
   font-size: 20px;
 }
-.work {
+.work-main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,4 +123,9 @@ h2 {
   display: flex;
 }
 .work-links {
+}
+
+@media (max-width: 1000px) {
+  .work-images {
+  }
 }
