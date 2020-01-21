@@ -2,7 +2,7 @@ body {
   margin-top: 25px;
   font-size: 21px;
   text-align: center;
-  -webkit-animation: fadein 2s;
+  -webkit-animation: fadein 3s;
 }
 
 @keyframes fadein {
@@ -60,7 +60,7 @@ li {
 }
 
 #landing-2 {
-  margin-top: 95px;
+  margin-top: 70px;
   height: 5vh;
   background-color: rgb(255, 255, 255);
   border-bottom: solid;
@@ -110,7 +110,7 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .line {
   width: 100%;
@@ -129,8 +129,26 @@ h2 {
 .work-images {
   display: flex;
 }
-
+/* .work-box {
+  display: flex;
+} */
+@media (max-width: 1120px) {
+  .work-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    margin-top: 20px;
+  }
+}
 @media (max-width: 1000px) {
-  .work-images {
+  .landing-text {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .work-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
   }
 }
